@@ -1,0 +1,143 @@
+body {
+  margin: 0 1em;
+  background-color: lightgray;
+  font-family: sans-serif;
+}
+
+h2{
+  clear: both;
+  margin-bottom: 0.5em;
+  padding-top: 1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.verde{
+  list-style-type: none;
+}
+
+.verde li{
+  background-color:#5ACE77 ;
+  border:dashed rgb(115, 85, 136) 0.3em;
+  float: left;
+  margin-right: 1em;
+  padding: 0.5em 2.5em;
+  font-weight: bold;
+  color:rgb(96, 42, 134) ;
+}
+
+.sobre {
+  text-align: center;
+}
+
+.sobre li{
+  background-color:#fff ;
+  border:solid 0.2em black;
+  border-color: white  black black white;
+ display: inline;
+  margin-right: 1em;
+  padding: 0.1em 0.5em;
+}
+
+.sobre li:hover{
+  border-color: black white white black;
+  background-color: lightgrey;
+}
+
+.caja{
+border: solid 0.1em black;
+width: 12em;
+text-align: center;
+padding: 0;
+}
+
+.caja li{
+  background-color:#fff ;
+  border:solid 0.1em black;
+  margin:1em;
+  padding: 0.3em;
+ 
+}
+
+.azul {
+  text-align: center;
+}
+
+.azul li{
+  background-color: royalblue ;
+ display: inline-block;
+ width: 10em;
+  margin:0;
+  padding: 0.5em 0;
+  font-weight: bold;
+  color: white;
+}
+
+.azul li:nth-child(odd){
+  background-color: white ;
+ display: inline-block;
+ width: 10em;
+  margin:0;
+  padding: 0.5em 0;
+  font-weight: bold;
+  color: royalblue;
+}
+
+.iconos li {
+  float:left;
+  margin-right: 2em;
+}
+
+@font-face {
+  font-family: "MiMenu";
+  src: url("menu.woff");
+}
+
+[class^='icon-']{
+  margin-right: 3px;
+  font-family: "Mimenu";
+  font-style: normal;
+}
+
+.icon-inicio::before {
+  content: "\e900";
+}
+.icon-anadir::before {
+  content: "\ea0a";
+}
+.icon-listar::before {
+  content: "\e922";
+}
+.icon-borrar::before {
+  content: "\ea0b";
+}
+.icon-buscar::before {
+  content: "\e986";
+}
+.icon-modificar::before {
+  content: "\e905";
+}
+.icon-salir::before {
+  content: "\e9b6";
+}
+
+.grandes {
+  text-align: center;
+}
+
+.grandes li{
+  display: inline;
+  border: black 0.1em solid;
+  border-radius: 0.3em;
+  margin-right: 1em;
+  padding: 0.5em 0.5em 0.3em;
+  background-color: white;
+  font-size: 200%;
+  line-height: 250%;
+}
+
+.grandes i {
+  margin: 0;
+}
